@@ -134,6 +134,7 @@ a {
   /* identical to box height */
 
   letter-spacing: 0.03em;
+  margin-bottom: 20px;
 
   color: #2196f3;
 }
@@ -183,13 +184,23 @@ li {
 }
 .container-slogan {
   
-  width: 696px ;
-  height: 120px;
+  /* width: 696px ; */
+  max-width: 650px;
+  /* height: 120px; */
   display: block;
   
   
 }
  
+.section-skills{
+padding: 94px 0;
+}
+.section-padding-top{
+
+  padding-top: 0;
+}
+
+
 .perevaga-container {
 /* margin-top: 94px; */
 padding-top: 94px;
