@@ -52,9 +52,9 @@ img {
 header{
   border-bottom:1px solid #ECECEC;  
 }
-/* section {
+section {
   padding: 94px 0;
-} */
+}
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -85,6 +85,14 @@ header{
   gap: 8px;
   
 }
+.header-list-nav {
+  display: flex;
+  gap: 50px;
+}
+.header-list-img{
+  display: flex;
+  gap: 30px;
+}
 
 .header-connect {
   display: flex;
@@ -96,6 +104,7 @@ header{
  .button-position{
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
   
   
 } 
@@ -163,8 +172,7 @@ li {
 
 .slogan-bgcolor {
   background-color: #2f303a;
-  /* width: 1600px;*/
-  /* height: 600px;  */
+ 
   padding: 200px 0;
   display: flex;
   text-align: center;
@@ -219,7 +227,7 @@ padding-bottom: 94px;
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
-margin-top: 50px;
+
 margin-bottom: 50px;
   color: #212121;
 }
@@ -280,7 +288,7 @@ padding: 30px;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  padding: 32px 50px 0 0;
+  padding: 32px 0;
 }
 .header-adress {
   
@@ -314,7 +322,7 @@ padding: 30px;
 
   font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.8;
   /* identical to box height, or 188% */
   margin-top: 30px;
   letter-spacing: 0.06em;
@@ -323,7 +331,8 @@ padding: 30px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   height: 50px;
-  font-weight: 216px;
+  font-weight: 700;
+  padding: 10px 32px;
 }
 .slogan-button:hover {
   background-color: #188ce8;
@@ -355,20 +364,18 @@ padding: 30px;
 .card-set {
   padding: 0;
   margin: 0;
-  
-
   display: flex;
   flex-wrap: wrap;
   margin-left: calc(-1 * var(--card-set-gap)); 
-  margin-top: 34px;
-  margin-bottom: 94px;
+  margin-top: -30px;
+  /* margin-bottom: 94px; */
 }
 
 .card-set > .item {
   flex-basis: calc(100% / 3 - var(--card-set-gap));
   margin-left: var(--card-set-gap);
   margin-top: var(--card-set-gap);
-  margin-bottom: var(--card-set-gap);
+  /* margin-bottom: var(--card-set-gap); */
 }
 
 /* CARD */
